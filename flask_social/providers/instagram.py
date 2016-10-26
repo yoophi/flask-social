@@ -13,7 +13,7 @@ config = {
     'request_token_url': None,
     'access_token_method': 'POST',
     'request_token_params': {
-        'scope': ['basic', 'public_content']
+        'scope': ['basic', 'public_content', 'follower_list', 'comments', 'relationships', 'likes']
     },
 }
 
